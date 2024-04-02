@@ -10,6 +10,7 @@ source:
    patches:
      - 0001-Replace-k8-with-ppc-for-Power-builds.patch # [ppc64le]
      - 0001-TF-Build-fixed.patch                 # [ppc64le and ppc_arch == 'p10']
+     - 0001-TF-Build-fixed-for-x86.patch #[x86_64]
 
 build:
   number: 2
